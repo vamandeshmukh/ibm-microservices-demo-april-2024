@@ -91,6 +91,8 @@ Check the added data on Swagger UI and also on -
 - http://localhost:9001/ibm-doctor-service/ibm-doctor/<other endpoints>
 
 
+
+
 To terminate a process, on CMD, run - 
 
 netstat -ano | findstr :<PORT>
@@ -100,4 +102,16 @@ Replace <PORT> with the port number you want, but keep the colon
 taskkill /PID <PID> /F
 
 Replace <PID> with the process id 
+
+
+
+
+
+
+
+
+
+
+
+
 
